@@ -147,4 +147,143 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+	<ThingDef ParentName="Apparel_ArmorHelmetCataphract_Base">
+		<defName>Apparel_ArmorHelmetCataphract_Animal</defName>
+		<label>animal cataphract helmet</label>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/Apparel/Head/Power/power</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>AnimalHead</li>
+			</bodyPartGroups>
+			<!-- This will in fact FIRST look for sprites based on the defName -->
+			<!-- For example for a Thrumbo: -->
+			<!-- Things/Pawn/Animal/Apparel/Head/Power/Thrumbo/Thrumbo_[north/east/south].png -->
+			<!-- if no sprite found on that path, it uses the path as usual -->
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/Power</wornGraphicPath>
+			<tags>
+				<li>AnimalApparel</li>
+				<li>defNameAlpaca</li>
+				<li>defNameBear_Grizzly</li>
+				<li>defNameBear_Polar</li>
+				<li>defNameBoomalope</li>
+				<li>defNameBoomrat</li>
+				<li>defNameCapybara</li>
+				<li>defNameChicken</li>
+				<li>defNameChinchilla</li>
+				<li>defNameCobra</li>
+				<li>defNameCow</li>
+				<li>defNameDromedary</li>
+				<li>defNameElephant</li>
+				<li>defNameFox_Arctic</li>
+				<li>defNameFox_Fennec</li>
+				<li>defNameFox_Red</li>
+				<li>defNameHusky</li>
+				<li>defNameMegasloth</li>
+				<li>defNameRhinoceros</li>
+				<li>defNameSquirrel</li>
+				<li>defNameThrumbo</li>
+				<li>defNameWarg</li>
+			</tags>
+			<defaultOutfitTags/>
+		</apparel>
+		<modExtensions>
+			<li Class="AnimalGear.AnimalApparelDefExtension">
+				<showCoverageForBodyType>QuadrupedAnimalWithPaws</showCoverageForBodyType>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="Apparel_AdvancedHelmet_Base">
+		<defName>Apparel_AdvancedHelmet_Animal</defName>
+		<label>animal flak helmet</label>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/Apparel/Head/Flak/flak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>AnimalHead</li>
+			</bodyPartGroups>
+			<!-- This will in fact FIRST look for sprites based on the defName -->
+			<!-- For example for a Thrumbo: -->
+			<!-- Things/Pawn/Animal/Apparel/Head/Flak/Thrumbo/Thrumbo_[north/east/south].png -->
+			<!-- if no sprite found on that path, it uses the path as usual -->
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/Flak</wornGraphicPath>
+			<tags>
+				<li>AnimalApparel</li>
+				<li>defNameAlpaca</li>
+				<li>defNameCobra</li>
+				<li>defNameCougar</li>
+				<li>defNameFox_Arctic</li>
+				<li>defNameFox_Fennec</li>
+				<li>defNameFox_Red</li>
+				<li>defNameMegascarab</li>
+				<li>defNamePanther</li>
+				<li>defNameSpelopede</li>
+				<li>defNameSquirrel</li>
+			</tags>
+			<defaultOutfitTags></defaultOutfitTags>
+		</apparel>
+		<modExtensions>
+			<li Class="AnimalGear.AnimalApparelDefExtension">
+				<showCoverageForBodyType>QuadrupedAnimalWithPaws</showCoverageForBodyType>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="Apparel_SimpleHelmet_Base">
+		<defName>Apparel_SimpleHelmet_Animal</defName>
+		<label>animal simple helmet</label>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/Apparel/Head/Plate/plate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>AnimalHead</li>
+			</bodyPartGroups>
+			<!-- This will in fact FIRST look for sprites based on the defName -->
+			<!-- For example for a Thrumbo: -->
+			<!-- Things/Pawn/Animal/Apparel/Head/Plate/Thrumbo/Thrumbo_[north/east/south].png -->
+			<!-- if no sprite found on that path, it uses the path as usual -->
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/Plate</wornGraphicPath>
+			<tags>
+				<li>AnimalApparel</li>
+				<li>defNameAlpaca</li>
+				<li>defNameBear_Grizzly</li>
+				<li>defNameBear_Polar</li>
+				<li>defNameCat</li>
+				<li>defNameCobra</li>
+				<li>defNameCougar</li>
+				<li>defNameElephant</li>
+				<li>defNameFox_Arctic</li>
+				<li>defNameFox_Fennec</li>
+				<li>defNameFox_Red</li>
+				<li>defNameHorse</li>
+				<li>defNameLynx</li>
+				<li>defNameMegascarab</li>
+				<li>defNameMegasloth</li>
+				<li>defNamePanther</li>
+				<li>defNameRhinoceros</li>
+				<li>defNameSpelopede</li>
+				<li>defNameSquirrel</li>
+				<li>defNameThrumbo</li>
+				<li>defNameWarg</li>
+				<li>defNameWildBoar</li>
+				<li>defNameWolf_Arctic</li>
+				<li>defNameWolf_Timber</li>
+			</tags>
+			<defaultOutfitTags/>
+		</apparel>
+		<modExtensions>
+			<li Class="AnimalGear.AnimalApparelDefExtension">
+				<showCoverageForBodyType>QuadrupedAnimalWithPaws</showCoverageForBodyType>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>
