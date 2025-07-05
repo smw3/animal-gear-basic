@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Body armors -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Apparel_ArmorCataphract_Animal"]/apparel/tags</xpath>
+		<value>
+			<li>defNameAA_Animalisk</li>
+			<li>defNameAA_Blizzarisk</li>
+			<li>defNameAA_Cinderlisk</li>
+			<li>defNameAA_DesertAve</li>
+			<li>defNameAA_Dunealisk</li>
+			<li>defNameAA_Feralisk</li>
+			<li>defNameAA_FrostAve</li>
+			<li>defNameAA_Junglelisk</li>
+			<li>defNameAA_MeadowAve</li>
+			<li>defNameAA_NightAve</li>
+			<li>defNameAA_RoyalAve</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Apparel_FlakJacket_Animal"]/apparel/tags</xpath>
+		<value>
+			<li>defNameAA_Animalisk</li>
+			<li>defNameAA_Blizzarisk</li>
+			<li>defNameAA_Cinderlisk</li>
+			<li>defNameAA_Dunealisk</li>
+			<li>defNameAA_Feralisk</li>
+			<li>defNameAA_Junglelisk</li>
+		</value>
+	</Operation>
+	
+	<!-- Helmets -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetCataphract_Animal"]/apparel/tags</xpath>
+		<value>
+			<li>defNameAA_DesertAve</li>
+			<li>defNameAA_FrostAve</li>
+			<li>defNameAA_MeadowAve</li>
+			<li>defNameAA_NightAve</li>
+			<li>defNameAA_RoyalAve</li>
+			
+		</value>
+	</Operation>
+</Patch>
