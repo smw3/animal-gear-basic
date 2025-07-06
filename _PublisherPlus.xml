@@ -2,6 +2,7 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
-    <exclude>1.6\Source</exclude>
+    <exclude>About\Preview.psd</exclude>
+    <exclude>Textures\Things\Pawn\Animal\Apparel\Body\Power\power.psd</exclude>
   </Excluded>
 </Configuration>
