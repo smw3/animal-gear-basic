@@ -14,6 +14,10 @@
 			<displayName>Animal Gear Framework</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ingendum.AnimalApparelFramework</li>
