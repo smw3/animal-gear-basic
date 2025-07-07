@@ -2,11 +2,6 @@
 <Patch>
 	<!-- Body armors -->
 	<Operation Class="PatchOperationAttributeAdd">
-		<xpath>Defs/ThingDef[defName="Apparel_ArmorCataphract"]</xpath>
-		<attribute>Name</attribute>
-		<value>Apparel_ArmorCataphract_Base</value>
-	</Operation>
-	<Operation Class="PatchOperationAttributeAdd">
 		<xpath>Defs/ThingDef[defName="Apparel_FlakJacket"]</xpath>
 		<attribute>Name</attribute>
 		<value>Apparel_FlakJacket_Base</value>
@@ -18,11 +13,6 @@
 	</Operation>
 	
 	<!-- helmets -->
-	<Operation Class="PatchOperationAttributeAdd">
-		<xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetCataphract"]</xpath>
-		<attribute>Name</attribute>
-		<value>Apparel_ArmorHelmetCataphract_Base</value>
-	</Operation>
 	<Operation Class="PatchOperationAttributeAdd">
 		<xpath>Defs/ThingDef[defName="Apparel_AdvancedHelmet"]</xpath>
 		<attribute>Name</attribute>
