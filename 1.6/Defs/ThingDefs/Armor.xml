@@ -21,6 +21,7 @@
 			<wornGraphicPath>Things/Pawn/Animal/Apparel/Body/Flak</wornGraphicPath>
 			<tags>
 				<li>AnimalApparel</li>
+				<li>AnimalOnly</li>
 				<li>defNameAlpaca</li>
 				<li>defNameCobra</li>
 				<li>defNameCougar</li>
@@ -63,6 +64,7 @@
 			<wornGraphicPath>Things/Pawn/Animal/Apparel/Body/Plate</wornGraphicPath>
 			<tags>
 				<li>AnimalApparel</li>
+				<li>AnimalOnly</li>
 				<li>defNameAlpaca</li>
 				<li>defNameBear_Grizzly</li>
 				<li>defNameBear_Polar</li>
@@ -119,6 +121,7 @@
 			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/Flak</wornGraphicPath>
 			<tags>
 				<li>AnimalApparel</li>
+				<li>AnimalOnly</li>
 				<li>defNameAlpaca</li>
 				<li>defNameCobra</li>
 				<li>defNameCougar</li>
@@ -157,6 +160,7 @@
 			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/Plate</wornGraphicPath>
 			<tags>
 				<li>AnimalApparel</li>
+				<li>AnimalOnly</li>
 				<li>defNameAlpaca</li>
 				<li>defNameBear_Grizzly</li>
 				<li>defNameBear_Polar</li>

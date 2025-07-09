@@ -21,6 +21,7 @@
 			<wornGraphicPath>Things/Pawn/Animal/Apparel/Body/Power</wornGraphicPath>
 			<tags>
 				<li>AnimalApparel</li>
+				<li>AnimalOnly</li>
 				<li>defNameAlpaca</li>
 				<li>defNameBear_Grizzly</li>
 				<li>defNameBear_Polar</li>
@@ -69,6 +70,7 @@
 			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/Power</wornGraphicPath>
 			<tags>
 				<li>AnimalApparel</li>
+				<li>AnimalOnly</li>
 				<li>defNameAlpaca</li>
 				<li>defNameBear_Grizzly</li>
 				<li>defNameBear_Polar</li>
